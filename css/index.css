@@ -52,7 +52,7 @@ td {
   border-radius: 9px;
   background-color: aliceblue;
   color:#ffffff;
-  position: absolute;
+  /* position: absolute; */
   padding: 30px 30px 30px;
 }
 .bio-special-column{
@@ -82,4 +82,25 @@ p{
   font-size: medium;
 
 }
+#educId{
+  border-radius: 9px;
+  background-color: aliceblue;
+  color:#ffffff;
+  /* position: absolute; */
+  padding: 30px 30px 30px;
+  margin-top: 5px;
+}
+
+#inst_col{
+  width: 20px;
+}
+
+.inst{
+  font-family:monospace;
+  text-align: left;
+  color: #736B92;
+  border: 0px solid #736B92;
+  width: auto;
+}
+
 
