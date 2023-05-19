@@ -2,12 +2,12 @@
 <html>
 <header class="header">
   <title>Lawrence okimait</title>
- <link rel="stylesheet" href="./css/index.css" type="text/css">
+  <link rel="stylesheet" href="./css/index.css" type="text/css">
   <nav class="navigation">
     <ul>
-      <li title="All age, dob, names and gender related data"> <a class="nav-links" href="#bioId">Biodata</a>
+      <li title="All age, dob, names and gender related data"> <a class="nav-links" href="#biodata">Biodata</a>
       </li>
-      <li title="Education related details"> <a class="nav-links" href="#">Education</a> </li>
+      <li title="Education related details"> <a class="nav-links" href="#education">Education</a> </li>
       <li title="Employment related information"> <a class="nav-links" href="#">Employment</a></li>
       <li title="Special skill set"> <a class="nav-links" href="#">Skills</a></li>
     </ul>
@@ -16,7 +16,9 @@
 
 <body>
 
-  <section class="biodata">
+  <!-- Biodata  -->
+  <section id="biodata">
+
     <table id="bioId">
       <thead>
         <th>
@@ -55,8 +57,74 @@
       </tbody>
     </table>
 
-  </section> 
- 
+  </section>
+
+  <!-- Education -->
+
+  <section id="education">
+    <table id="educId">
+      <thead>
+        <th>
+          <tr>
+            <td id="inst_col">Institution</td>
+            <td id="corse_col">Course</td>
+            <td id="award_col">Award</td>
+            <td id="status_col">Status</td>
+            <td id="sart_year">Start year</td>
+            <td id="end_yr">End Year</td>
+          </tr>
+        </th>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="inst">Uganda Christian University</td>
+          <td class = "inst">Bachelor of Science in Computer Science</td>
+          <td class="inst"> Bachelors Degree (Bs. CS) </td>
+          <td class="inst">Completed</td>
+          <td class="inst">2008</td>
+          <td class="inst">2011</td>
+        </tr>
+        <tr>
+          <td class="inst">Mengo SS</td>
+          <td class = "inst">A-Level</td>
+          <td class="inst"> Uganda Adavanced Certificate of Education UACE </td>
+          <td class="inst">Completed</td>
+          <td class="inst">2006</td>
+          <td class="inst">2007</td>
+        </tr>
+        <tr>
+          <td class="inst">Kiira College-Butiki</td>
+          <td class = "inst">O-Level</td>
+          <td class="inst">Uganda Certificate of Education - UCE </td>
+          <td class="inst">Completed</td>
+          <td class="inst">2002</td>
+          <td class="inst">2005</td>
+        </tr>
+        <tr>
+          <td class="inst">Budo Junior School</td>
+          <td class = "inst">Primary Leaving Education </td>
+          <td class="inst">PLE certificate </td>
+          <td class="inst">Completed</td>
+          <td class="inst">1994</td>
+          <td class="inst">2001</td>
+        </tr>    
+      </tbody>
+    </table>
+  </section>
+<section>
+  <table>
+    <thead>
+      <th>
+        <tr>
+          <td>
+
+          </td>
+        </tr>
+      </th>
+    </thead>
+  </table>
+</section>
+
 </body>
 
 </html>
