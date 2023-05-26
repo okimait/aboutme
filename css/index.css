@@ -31,7 +31,7 @@ li{
 .header{
   box-sizing: border-box;
   background-color: #ffffff;
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 7px solid #dddddd;
   left: 0px;
   overflow-y: auto;
   padding:30px;
